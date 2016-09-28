@@ -1,0 +1,31 @@
+{
+  "name": "vis/elasticquent",
+  "type": "library",
+  "description": "ElasticSearch integration to Vis Builder",
+  "keywords": [
+    "vis",
+    "elasticquent"
+  ],
+  "homepage": "https://github.com/husband/elastiquent",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergey Shlyakhov",
+      "email": "husband.sergey@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "illuminate/support": "~5.1",
+    "php": "~5.5.34|~7.0",
+    "elasticquent/elasticquent": "dev-master"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ],
+    "psr-4": {
+      "Vis\\Elasticquent\\": "src/"
+    }
+  }
+}
